@@ -6,7 +6,7 @@ import "./styles/layout.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/sample-store">
       <App />
     </BrowserRouter>
   </React.StrictMode>

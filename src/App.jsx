@@ -10,16 +10,9 @@ function App() {
   return (
     <Layout>
       <Routes>
-        {/* Home page — “/” */}
         <Route path="/" element={<Home />} />
-
-        {/* Product details page — “/product/:productId” */}
         <Route path="/product/:productId" element={<ProductDetails />} />
-
-        {/* Cart page — “/cart” */}
         <Route path="/cart" element={<Cart />} />
-
-        {/* Checkout page — “/checkout” */}
         <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </Layout>
